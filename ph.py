@@ -1,3 +1,5 @@
+st.sidebar.write("En esta app")
+
 import streamlit as st
 
 st.title("Evaluación de un lote")
@@ -24,4 +26,4 @@ if st.button("Evaluar"):
         resultado = "Lote aceptable"
 
     st.write(f"Resultado: {resultado}")
-st.sidebar.title{xd}
+
